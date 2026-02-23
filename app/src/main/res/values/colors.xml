@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="splash_bg_start">#14B883</color>
+    <color name="splash_bg_end">#0E8E66</color>
+    <color name="leaf_green">#059669</color>
+    <color name="button_green">#059669</color>
+    <color name="text_dark">#0F172A</color>
+    <color name="text_grey">#64748B</color>
+    <color name="circle_blue">#E0EAFF</color>
+    <color name="circle_green">#DCFCE7</color>
+    <color name="chart_blue">#3B82F6</color>
+    <color name="dot_inactive">#E2E8F0</color>
+</resources>

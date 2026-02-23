@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">ECOGO</string>
+    <string name="eco_go">Eco Go</string>
+    <string name="smart_waste_reporting">Smart Waste Reporting</string>
+    <string name="skip">Skip</string>
+    <string name="track_progress">Track Progress</string>
+    <string name="track_progress_desc">Monitor the status of your reports and see the impact you are making.\nWatch your neighborhood get cleaner.</string>
+    <string name="report_issues">Report Issues</string>
+    <string name="report_issues_desc">Snap photos of waste or environmental issues in your community. AI helps identify and categorize them instantly.</string>
+    <string name="next">Next</string>
+    <string name="welcome_back">Welcome Back</string>
+    <string name="sign_in_subtitle">Sign in to continue your eco journey</string>
+    <string name="email_address">Email Address</string>
+    <string name="email_hint">alex@example.com</string>
+    <string name="password">Password</string>
+    <string name="password_hint">••••••••</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="log_in">Log In</string>
+    <string name="dont_have_account">Don\'t have an account?</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="create_account">Create Account</string>
+    <string name="join_community">Join the community of eco warriors</string>
+    <string name="full_name">Full Name</string>
+    <string name="full_name_hint">Alex Johnson</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="already_have_account">Already have an account?</string>
+    <string name="main_activity_title">Main Activity</string>
+</resources>

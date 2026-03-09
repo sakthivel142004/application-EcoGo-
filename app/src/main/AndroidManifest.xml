@@ -37,6 +37,78 @@
             android:name=".MainActivity"
             android:exported="false" />
 
+        <activity
+            android:name=".CameraActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".MenuActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".RegisterActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".InsightsActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".AnalysisActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".AddDetailsActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".AnalysisResultActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".ConfirmLocationActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".MapExpandedActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".ReviewReportActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".ReportSubmittedActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".MyReportsActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".CommunityActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".EmergencyReportActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".EditProfileActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".SettingsActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".DataPrivacyActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".EducationHubActivity"
+            android:exported="false" />
+
     </application>
 
 </manifest>

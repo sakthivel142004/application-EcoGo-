@@ -21,7 +21,9 @@
         <ImageView
             android:layout_width="136dp"
             android:layout_height="136dp"
+            android:background="@drawable/white_rounded_rect"
             android:contentDescription="@string/eco_go"
+            android:padding="24dp"
             android:src="@drawable/ic_leaf"
             android:elevation="12dp" />
 

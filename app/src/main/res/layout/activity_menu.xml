@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    tools:context=".MenuActivity">
+
+    <!-- Header Section -->
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:background="@color/main_green"
+        android:paddingHorizontal="16dp">
+
+        <ImageView
+            android:id="@+id/closeButton"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:padding="12dp"
+            android:src="@drawable/ic_close"
+            android:contentDescription="Back"
+            android:clickable="true"
+            android:focusable="true"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:tint="@color/white" />
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/profileImage"
+            android:layout_width="72dp"
+            android:layout_height="72dp"
+            android:src="@color/white"
+            app:civ_border_color="@color/white_70"
+            app:civ_border_width="2dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/profileInitial"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="AJ"
+            android:textColor="@color/main_green"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="@id/profileImage"
+            app:layout_constraintEnd_toEndOf="@id/profileImage"
+            app:layout_constraintStart_toStartOf="@id/profileImage"
+            app:layout_constraintTop_toTopOf="@id/profileImage" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:orientation="vertical"
+            app:layout_constraintBottom_toBottomOf="@id/profileImage"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@id/profileImage"
+            app:layout_constraintTop_toTopOf="@id/profileImage">
+
+            <TextView
+                android:id="@+id/profileName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/user_name"
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/profileEmail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/email_example"
+                android:textColor="@color/white_70"
+                android:textSize="14sp" />
+        </LinearLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <!-- Menu List Section -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:paddingVertical="8dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <com.google.android.material.button.MaterialButton
+                style="@style/Widget.Material3.Button.TextButton"
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:gravity="start|center_vertical"
+                android:paddingHorizontal="24dp"
+                android:text="@string/dashboard"
+                android:textColor="@color/text_dark"
+                android:textSize="16sp"
+                app:icon="@drawable/ic_dashboard"
+                app:iconPadding="16dp"
+                app:iconSize="24dp"
+                app:iconTint="@color/text_grey" />
+
+            <com.google.android.material.button.MaterialButton
+                style="@style/Widget.Material3.Button.TextButton"
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:gravity="start|center_vertical"
+                android:paddingHorizontal="24dp"
+                android:text="@string/my_reports"
+                android:textColor="@color/text_dark"
+                android:textSize="16sp"
+                app:icon="@drawable/ic_reports"
+                app:iconPadding="16dp"
+                app:iconSize="24dp"
+                app:iconTint="@color/text_grey" />
+
+            <com.google.android.material.button.MaterialButton
+                style="@style/Widget.Material3.Button.TextButton"
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:gravity="start|center_vertical"
+                android:paddingHorizontal="24dp"
+                android:text="@string/map_view"
+                android:textColor="@color/text_dark"
+                android:textSize="16sp"
+                app:icon="@drawable/ic_menu_map"
+                app:iconPadding="16dp"
+                app:iconSize="24dp"
+                app:iconTint="@color/text_grey" />
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="56dp">
+
+                <com.google.android.material.button.MaterialButton
+                    style="@style/Widget.Material3.Button.TextButton"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="start|center_vertical"
+                    android:paddingHorizontal="24dp"
+                    android:text="@string/leaderboard"
+                    android:textColor="@color/text_dark"
+                    android:textSize="16sp"
+                    app:icon="@drawable/ic_leaderboard"
+                    app:iconPadding="16dp"
+                    app:iconSize="24dp"
+                    app:iconTint="@color/text_grey" />
+
+            </FrameLayout>
+
+            <com.google.android.material.button.MaterialButton
+                style="@style/Widget.Material3.Button.TextButton"
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:gravity="start|center_vertical"
+                android:paddingHorizontal="24dp"
+                android:text="@string/ai_insights"
+                android:textColor="@color/text_dark"
+                android:textSize="16sp"
+                app:icon="@drawable/ic_insights"
+                app:iconPadding="16dp"
+                app:iconSize="24dp"
+                app:iconTint="@color/text_grey" />
+
+            <com.google.android.material.button.MaterialButton
+                style="@style/Widget.Material3.Button.TextButton"
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:gravity="start|center_vertical"
+                android:paddingHorizontal="24dp"
+                android:text="@string/waste_education"
+                android:textColor="@color/text_dark"
+                android:textSize="16sp"
+                app:icon="@drawable/ic_education"
+                app:iconPadding="16dp"
+                app:iconSize="24dp"
+                app:iconTint="@color/text_grey" />
+
+            <com.google.android.material.button.MaterialButton
+                style="@style/Widget.Material3.Button.TextButton"
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:gravity="start|center_vertical"
+                android:paddingHorizontal="24dp"
+                android:text="@string/settings"
+                android:textColor="@color/text_dark"
+                android:textSize="16sp"
+                app:icon="@drawable/ic_menu_settings"
+                app:iconPadding="16dp"
+                app:iconSize="24dp"
+                app:iconTint="@color/text_grey" />
+
+            <com.google.android.material.button.MaterialButton
+                style="@style/Widget.Material3.Button.TextButton"
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:gravity="start|center_vertical"
+                android:paddingHorizontal="24dp"
+                android:text="@string/admin_panel"
+                android:textColor="@color/text_dark"
+                android:textSize="16sp"
+                app:icon="@drawable/ic_admin"
+                app:iconPadding="16dp"
+                app:iconSize="24dp"
+                app:iconTint="@color/text_grey" />
+
+        </LinearLayout>
+    </ScrollView>
+
+    <!-- Bottom Section -->
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#E0E0E0" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/logoutButton"
+        style="@style/Widget.Material3.Button.TextButton"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_marginBottom="24dp"
+        android:gravity="start|center_vertical"
+        android:paddingHorizontal="24dp"
+        android:text="@string/log_out"
+        android:textColor="@color/logout_red"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:icon="@drawable/ic_logout"
+        app:iconPadding="16dp"
+        app:iconSize="24dp"
+        app:iconTint="@color/logout_red" />
+
+</LinearLayout>

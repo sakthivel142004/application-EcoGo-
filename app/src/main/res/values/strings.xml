@@ -25,4 +25,48 @@
     <string name="confirm_password">Confirm Password</string>
     <string name="already_have_account">Already have an account?</string>
     <string name="main_activity_title">Main Activity</string>
+
+    <string name="good_morning">Good Morning,</string>
+    <string name="user_name">Alex Johnson</string>
+    <string name="search_placeholder">Search reports, locations...</string>
+    <string name="environmental_score">Environmental Score</string>
+    <string name="score_value">78</string>
+    <string name="score_total">/100</string>
+    <string name="top_percent">Top 15% in your area</string>
+
+    <string name="report">Report</string>
+    <string name="urgent">Urgent</string>
+    <string name="map">Map</string>
+    <string name="stats">Stats</string>
+    <string name="profile">Profile</string>
+
+    <string name="recent_reports">Recent Reports</string>
+    <string name="view_all">View All</string>
+    <string name="illegal_dumping">Illegal Dumping</string>
+    <string name="green_st">123 Green St</string>
+    <string name="status_in_progress">In Progress</string>
+    <string name="time_2h">2h ago</string>
+
+    <string name="overflowing_bin">Overflowing Bin</string>
+    <string name="central_park">Central Park</string>
+    <string name="status_pending">Pending</string>
+    <string name="time_5h">5h ago</string>
+
+    <string name="community">Community</string>
+
+    <string name="camera_prompt">Point at waste or environmental issue</string>
+    <string name="upload">Upload</string>
+    <string name="close">Close</string>
+    <string name="flash">Flash</string>
+
+    <string name="email_example">alex@example.com</string>
+    <string name="dashboard">Dashboard</string>
+    <string name="my_reports">My Reports</string>
+    <string name="map_view">Map View</string>
+    <string name="leaderboard">Leaderboard</string>
+    <string name="ai_insights">AI Insights</string>
+    <string name="waste_education">Waste Education</string>
+    <string name="settings">Settings</string>
+    <string name="admin_panel">Admin Panel</string>
+    <string name="log_out">Log Out</string>
 </resources>
